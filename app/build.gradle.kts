@@ -47,6 +47,9 @@ dependencies {
     //ViewModel Compose
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.11.0")
 
+    val room_version = "2.8.4"
+
+    implementation("androidx.room:room-runtime:$room_version")
 
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
